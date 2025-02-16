@@ -3,11 +3,9 @@
 </script>
 
 <template>
-    <main class="container">
-        
-    </main>
+    <main></main>
 </template>
 
 <style lang="scss" scoped>
-    
+
 </style>

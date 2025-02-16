@@ -6,17 +6,19 @@
   <header class="header">
     <div class="header-container">
       <div class="header-logo">
-        <a href="/">Мой Проект</a>
+        <nuxt-link to="/">Мой Проект</nuxt-link>
       </div>
       <nav class="header-nav">
         <ul>
-          <li><a href="/about">О нас</a></li>
-          <li><a href="/services">Услуги</a></li>
-          <li><a href="/contacts">Контакты</a></li>
+          <li><nuxt-link to="/projects">Проекты</nuxt-link></li>
+          <li><nuxt-link to="#">Услуги</nuxt-link></li>
+          <li><nuxt-link to="#">Контакты</nuxt-link></li>
         </ul>
       </nav>
       <div class="header-actions">
-        <button>Войти</button>
+        <UIButton 
+          label="Войти"
+        />
       </div>
     </div>
   </header>
@@ -75,23 +77,6 @@
               color: #3498db;
             }
           }
-        }
-      }
-    }
-
-    .header-actions {
-      button {
-        background-color: #3498db;
-        color: #fff;
-        border: none;
-        border-radius: 4px;
-        padding: 8px 15px;
-        font-size: 0.9rem;
-        cursor: pointer;
-        transition: background-color 0.3s;
-
-        &:hover {
-          background-color: #1d6fa5;
         }
       }
     }
