@@ -1,4 +1,4 @@
-<script lang="ts">
+<script lang="ts" setup>
 
 </script>
 
@@ -45,6 +45,11 @@
 </template>
 
 <style lang="scss" scoped>
+    main{
+        display: flex;
+        gap: 30px;
+    }
+
     .hero {
     text-align: center;
     max-width: 800px;

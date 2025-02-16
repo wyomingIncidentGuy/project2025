@@ -18,7 +18,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    min-width: 768px;
+    min-width: 1280px;
     font-family: Arial;
 
     & > #__nuxt {

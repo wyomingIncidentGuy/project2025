@@ -1,9 +1,11 @@
-<script lang="ts">
+<script lang="ts" setup>
 
 </script>
 
 <template>
-    <main></main>
+    <main>
+        <FileLoader />
+    </main>
 </template>
 
 <style lang="scss" scoped>
